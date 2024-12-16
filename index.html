@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tràn Bộ Nhớ</title>
+  </head>
+  <body>
+    <h1>Tràn Bộ Nhớ</h1>
+    <button onclick="generateRandomNotifications()">Bấm Vào Đây</button>
+    <h3
+      style="
+        position: fixed;
+        top: 33.5%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 250px;
+        text-align: center;
+        color: lightpink;
+      "
+    >
+      Trước Khi Xem Thì Bấm Play Nhạc nhaa
+    </h3>
+    <audio autoplay loop>
+      <source
+        src="./audio/Tràn Bộ Nhớ - Dương Domic - Lyrics Video.mp3"
+        type="audio/mp3"
+      />
+      Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+    <iframe
+      style="border-radius: 12px; position: fixed; bottom: 0"
+      src="https://open.spotify.com/embed/track/4IduMWzDlhkKJ0c8yWByVV?utm_source=generator"
+      max-width="95%"
+      height="152"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+    <script src="script.js"></script>
+  </body>
+</html>
